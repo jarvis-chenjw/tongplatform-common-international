@@ -1,0 +1,13 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'b-icon';
+    src: url('b-icon.ttf')  format('truetype');
+}
+.b-icon-pre:before{
+	font-family: 'b-icon';
+	font-style: normal;
+}
+
+/*图标*/
+
+/*图标end*/

@@ -1,0 +1,534 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'icon';
+    src: url('icon.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'sys-icon';
+    src: url('sys-icon.ttf')  format('truetype');
+}
+.icon-pre:before,
+.ivu-icon[class*="-cus-"]{
+	font-family: "icon";
+}
+.ivu-icon[class*="-sys-"]{
+	font-family: "sys-icon";
+}
+/*图标*/
+.ivu-icon-cus-bell:before{
+	content: "\e901";
+}
+.ivu-icon-cus-exit:before{
+	content: "\e902";
+}
+.ivu-icon-cus-manage:before{
+	content: "\e903";
+}
+.ivu-icon-cus-template:before{
+	content: "\e904";
+}
+.ivu-icon-cus-log:before{
+	content: "\e905";
+}
+.ivu-icon-cus-collapse:before{
+	content: "\e906";
+}
+.ivu-icon-cus-edit:before{
+	content: "\e907";
+}
+.ivu-icon-cus-add:before{
+	content: "\e908";
+}
+.ivu-icon-cus-edit-2:before{
+	content: "\e909";
+}
+.ivu-icon-cus-sort-desc:before{
+	content: "\e90a";
+}
+.ivu-icon-cus-sort-asc:before{
+	content: "\e90b";
+}
+.ivu-icon-cus-message:before{
+	content: "\e90c";
+}
+.ivu-icon-cus-heart:before{
+	content: "\e90d";
+}
+.ivu-icon-cus-discovery:before{
+	content: "\e90e";
+}
+.ivu-icon-cus-my:before{
+	content: "\e90f";
+}
+.ivu-icon-cus-img:before{
+	content: "\e910";
+}
+.ivu-icon-cus-qrcode:before{
+	content: "\e911";
+}
+.ivu-icon-cus-search:before{
+	content: "\e912";
+}
+.ivu-icon-cus-up:before{
+	content: "\e913";
+}
+.ivu-icon-cus-down:before{
+	content: "\e914";
+}
+.ivu-icon-cus-home:before{
+	content: "\e915";
+}
+.ivu-icon-cus-close:before{
+	content: "\e916";
+}
+.ivu-icon-cus-help-tip:before,
+.ivu-icon-cus-help:before{
+	content: "\e917";
+}
+.ivu-icon-cus-user:before{
+	content: "\e918";
+}
+.ivu-icon-cus-lock:before{
+	content: "\e919";
+}
+.ivu-icon-cus-tip:before{
+	content: "\e91a";
+}
+.ivu-icon-cus-wait:before{
+	content: "\e97a";
+}
+.ivu-icon-cus-system-1:before{
+	content: "\e91b";
+}
+.ivu-icon-cus-system-2:before{
+	content: "\e91c";
+}
+.ivu-icon-cus-system-3:before{
+	content: "\e91d";
+}
+.ivu-icon-cus-system-4:before{
+	content: "\e91e";
+}
+.ivu-icon-cus-system-5:before{
+	content: "\e91f";
+}
+.ivu-icon-cus-system-6:before{
+	content: "\e920";
+}
+.ivu-icon-cus-del:before{
+	content: "\e921";
+}
+.ivu-icon-cus-change:before{
+	content: "\e926";
+}
+.ivu-icon-cus-setting:before{
+	content: "\e927";
+}
+.ivu-icon-cus-back:before{
+	content: "\e929";
+}
+.ivu-icon-cus-right:before{
+	content: "\e93b";
+}
+.ivu-icon-cus-save:before{
+	content: "\e92e";
+}
+.ivu-icon-cus-close-small:before{
+	content: "\e92f";
+}
+.ivu-icon-cus-arrow-up:before{
+	content: "\e923";
+}
+.ivu-icon-cus-arrow-down:before{
+	content: "\e924";
+}
+.ivu-icon-cus-app-edit:before{
+	content: "\e93d";
+}
+.ivu-icon-cus-radio:before{
+	content: "\e93e";
+}
+.ivu-icon-cus-checkbox:before{
+	content: "\e93f";
+}
+.ivu-icon-cus-cut:before{
+	content: "\e940";
+}
+.ivu-icon-cus-move:before{
+	content: "\e941";
+}
+.ivu-icon-cus-handle:before{
+	content: "\e942";
+}
+.ivu-icon-cus-refresh:before{
+	content: "\e946";
+}
+.ivu-icon-cus-del-cut:before{
+	content: "\e956";
+}
+.ivu-icon-cus-menu-function:before{
+	content: "\e95b";
+}
+.ivu-icon-cus-menu-marketing:before{
+	content: "\e95c";
+}
+.ivu-icon-cus-menu-items:before{
+	content: "\e95d";
+}
+.ivu-icon-cus-menu-app:before{
+	content: "\e95e";
+}
+.ivu-icon-cus-menu-component:before{
+	content: "\e95f";
+}
+.ivu-icon-cus-menu-service:before{
+	content: "\e960";
+}
+.ivu-icon-cus-menu-message:before{
+	content: "\e961";
+}
+.ivu-icon-cus-menu-advertise:before{
+	content: "\e962";
+}
+.ivu-icon-cus-menu-feedback:before{
+	content: "\e963";
+}
+.ivu-icon-cus-android:before{
+	content: "\e964";
+}
+.ivu-icon-cus-ios:before{
+	content: "\e965";
+}
+.ivu-icon-cus-mini-program:before{
+	content: "\e966";
+}
+.ivu-icon-cus-data:before{
+	content: "\e958";
+}
+.ivu-icon-cus-cloud-upload:before{
+	content: "\e967";
+}
+.ivu-icon-cus-play:before{
+	content: "\e969";
+}
+.ivu-icon-cus-stop:before{
+	content: "\e968";
+}
+.ivu-icon-cus-success:before{
+	content: "\e936";
+}
+.ivu-icon-cus-fail:before{
+	content: "\e951";
+}
+.ivu-icon-cus-pause:before{
+	content: "\e96b";
+}
+.ivu-icon-cus-table-play:before{
+	content: "\e96c";
+}
+.ivu-icon-cus-table-pause:before{
+	content: "\e96d";
+}
+.ivu-icon-cus-table-stop:before{
+	content: "\e96e";
+}
+.ivu-icon-cus-publish-log:before{
+	content: "\e96f";
+}
+.ivu-icon-cus-publish-database:before{
+	content: "\e970";
+}
+.ivu-icon-cus-value-up:before{
+	content: "\e971";
+}
+.ivu-icon-cus-value-down:before{
+	content: "\e972";
+}
+.ivu-icon-cus-notice:before{
+	content: "\e935";
+}
+.ivu-icon-cus-tips:before{
+	content: "\e975";
+}
+.ivu-icon-cus-right-arrow:before{
+	content: "\e974";
+}
+.ivu-icon-cus-protect:before{
+	content: "\e973";
+}
+.ivu-icon-cus-tasks:before{
+	content: "\e976";
+}
+.ivu-icon-cus-download:before{
+	content: "\E977";
+}
+.ivu-icon-cus-img-upload:before{
+	content: "\E978";
+}
+.ivu-icon-cus-scan:before{
+	content: "\E979";
+}
+.ivu-icon-cus-user-circle:before{
+	content: "\e97B";
+}
+.ivu-icon-cus-arrow-down-l:before{
+	content: "\e97c";
+}
+.ivu-icon-cus-arrow-up-l:before{
+	content: "\e97d";
+}
+/*图标 end*/
+
+
+/*系统图标*/
+.ivu-icon-sys-default:before{
+	content: "\e924";
+}
+/*运营管理平台*/
+.ivu-icon-sys-yhfkgl:before{
+	content: "\e901";
+}
+.ivu-icon-sys-adgl:before{
+	content: "\e90B";
+}
+.ivu-icon-sys-fwgl:before{
+	content: "\e904";
+}
+.ivu-icon-sys-zjgl:before{
+	content: "\e909";
+}
+.ivu-icon-sys-xxgl:before{
+	content: "\e909";
+}
+.ivu-icon-sys-apppzgl:before{
+	content: "\e902";
+}
+.ivu-icon-sys-spgl:before{
+	content: "\e906";
+}
+.ivu-icon-sys-yxzx:before{
+	content: "\e90a";
+}
+.ivu-icon-sys-gnzjgl:before{
+	content: "\e905";
+}
+.ivu-icon-sys-webfwpt:before{
+	content: "\e903";
+}
+.ivu-icon-sys-xcxgl:before{
+	content: "\e908";
+}
+.ivu-icon-sys-rzgl:before{
+	content: "\e912";
+}
+.ivu-icon-sys-yhgl:before{
+	content: "\e921";
+}
+.ivu-icon-sys-qygl:before{
+	content: "\e911";
+}
+.ivu-icon-sys-qiyegl:before{
+	content: "\e93D";
+}
+.ivu-icon-sys-sjygl:before{
+	content: "\e914";
+}
+/*运营管理平台end*/
+/*内容管理平台*/
+.ivu-icon-sys-wzgl:before{
+	content: "\e916";
+}
+.ivu-icon-sys-pzgl:before{
+	content: "\e910";
+}
+/*内容管理平台end*/
+/*开放管理平台*/
+.ivu-icon-sys-fwsgl:before{
+	content: "\e90f";
+}
+.ivu-icon-sys-fwgl:before{
+	content: "\e904";
+}
+.ivu-icon-sys-xxgl:before{
+	content: "\e907";
+}
+.ivu-icon-sys-tjfx:before{
+	content: "\e915";
+}
+.ivu-icon-sys-gggl:before{
+	content: "\e925";
+}
+.ivu-icon-sys-zbgl:before{
+	content: "\e931";
+}
+/*开放管理平台end*/
+/*安全强管控平台*/
+.ivu-icon-sys-sbgl:before{
+	content: "\e919";
+}
+.ivu-icon-sys-jcsz:before{
+	content: "\e918";
+}
+.ivu-icon-sys-zcgl:before{
+	content: "\e91a";
+}
+/*安全强管控平台end*/
+/*服务接入平台*/
+.ivu-icon-sys-sy:before{
+	content: "\e913";
+}
+.ivu-icon-sys-fwpz:before{
+	content: "\e90e";
+}
+.ivu-icon-sys-tyxxgl:before{
+	content: "\e907";
+}
+.ivu-icon-sys-zhzx:before{
+	content: "\e923";
+}
+.ivu-icon-sys-ywzx:before{
+	content: "\e922";
+}
+.ivu-icon-sys-typjgl:before{
+	content: "\e91b";
+}
+/*服务截图平台end*/
+/*大数据平台*/
+.ivu-icon-sys-sy:before{
+	content: "\e913";
+}
+.ivu-icon-sys-yhxwfx:before{
+	content: "\e91f";
+}
+.ivu-icon-sys-yhfx:before{
+	content: "\e91c";
+}
+/*大数据平台end*/
+/*运维管理平台*/
+.ivu-icon-sys-sy:before{
+	content: "\e913";
+}
+.ivu-icon-sys-dsffwjk:before{
+	content: "\e90d";
+}
+.ivu-icon-sys-apijkjk:before{
+	content: "\e91e";
+}
+.ivu-icon-sys-xtjk:before,
+.ivu-icon-sys-jkxt:before{
+	content: "\e90c";
+}
+.ivu-icon-sys-zjjjk:before{
+	content: "\e920";
+}
+.ivu-icon-sys-jkgj:before{
+	content: "\e917";
+}
+.ivu-icon-sys-qxgl:before{
+	content: "\e91d";
+}
+/*运维管理平台end*/
+/*通管理平台*/
+.ivu-icon-sys-xmgl:before{
+	content: "\e927";
+}
+.ivu-icon-sys-cpmbgl:before{
+	content: "\e926";
+}
+.ivu-icon-sys-mbrzgl:before{
+	content: "\e929";
+}
+.ivu-icon-sys-zjgl:before{
+	content: "\e909";
+}
+/*同管理平台end*/
+.ivu-icon-sys-lmgl:before{
+	content: "\e92d";
+}
+.ivu-icon-sys-sygl:before{
+	content: "\e92a";
+}
+.ivu-icon-sys-ssgl:before{
+	content: "\e92b";
+}
+.ivu-icon-sys-fxgl:before{
+	content: "\e92f";
+}
+.ivu-icon-sys-sytjgl:before{
+	content: "\e92e";
+}
+.ivu-icon-sys-txlgl:before{
+	content: "\e92c";
+}
+
+.ivu-icon-sys-czrzgl:before{
+	content: "\e932";
+}
+
+.ivu-icon-sys-zxgl:before{
+	content: "\e933";
+}
+.ivu-icon-sys-zxgl:before{
+	content: "\e933";
+}
+.ivu-icon-sys-pzgl:before{
+	content: "\e934";
+}
+.ivu-icon-sys-aqsm:before{
+	content: "\e935";
+}
+.ivu-icon-sys-appfwgl:before{
+	content: "\e936";
+}
+.ivu-icon-sys-webfwgl:before{
+	content: "\e93b";
+}
+.ivu-icon-sys-gjfx:before{
+	content: "\e937";
+}
+.ivu-icon-sys-gjrz:before{
+	content: "\e938";
+}
+.ivu-icon-sys-plgl:before{
+	content: "\e939";
+}
+.ivu-icon-sys-yyfhq:before{
+	content: "\e93a";
+}
+.ivu-icon-sys-yygl:before{
+	content: "\e93e";
+}
+
+.ivu-icon-sys-yygl:before{
+	content: "\e93e";
+}
+.ivu-icon-sys-gxrgl:before{
+	content: "\e940";
+}
+.ivu-icon-sys-zzgl:before{
+	content: "\e941";
+}
+/*正益*/
+i.icon[class*="-sys-"]{
+	font-family: "sys-icon" !important;
+}
+.icon-sys-yygl:before,
+.ivu-icon-sys-yygl:before{
+	content: "\e93e";
+}
+
+.icon-sys-kfnlgl:before,
+.ivu-icon-sys-kfnlgl:before{
+	content: "\e93f";
+}
+.icon-sys-xmgl:before{
+	content: "\e927";
+}
+.icon-sys-gxrgl:before{
+	content: "\e940";
+}
+.ivu-icon-sys-economy:before{
+    content: '\e942';
+}
+/*正益end*/
+/*系统图标end*/

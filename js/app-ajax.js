@@ -7,6 +7,7 @@ import axiosUtils from "./ajax-utils-rest.js"
 import cookies from "./cookie.js"
 import servicesConfig from "./../config/services-config.js"
 import underscore from "underscore-extend"
+import languageJson from './load-language';
 
 var instance = {};
 var isLoading = "";
@@ -103,7 +104,7 @@ var _postJson = function(params){
 		success : function(d){}, // 成功后回调
 		error : null,   // 失败后回调
 		autoShowWait : false,   // 自动显示菊花
-		loadingText : "正在加载", // 加载的提示语
+		loadingText : languageJson['zhengzaijiazai'], // 加载的提示语
 		autoCloseWait : false,  // 自动关闭菊花
 		headers : {
 			"base-params" : JSON.stringify(authClient),
@@ -153,7 +154,7 @@ var _postJson = function(params){
 						break;
 					default:// 失败或者其他
 						
-						var message = data.message ? data.message : "有点忙开个小差，稍后再试~";
+						var message = data.message ? data.message : languageJson['youdianmangkaigexiaochashaohouzaishi'];
 						if(params.error){
 							params.error.call(this, message, data);
 						}else{

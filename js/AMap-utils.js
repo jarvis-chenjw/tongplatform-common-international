@@ -3,7 +3,8 @@
  * @author hlijing@linewell.com
  * @since 2018-7-6
  */
-
+    import languageJson from './load-language';
+    console.log('languageJson:' ,languageJson);
 	// 地图对象
 	var map = new AMap.Map('notReality', {});
 
@@ -35,11 +36,13 @@
 					if(status == "error") {
 						switch(result.info) {
 							case "FAILED":
-								notify.toast("获取当前位置失败，请检查你的定位权限");
+                                // notify.toast("获取当前位置失败，请检查你的定位权限");
+                                notify.toast(languageJson['huoqudangqianweizhishibaiqingjianchanidedingweiquanxian']);
 								break;
 							case "NOT_SUPPORTED":
-								notify.toast("当前浏览器不支持定位功能");
-								break;
+								// notify.toast("当前浏览器不支持定位功能");
+                                notify.toast(languageJson['dangqianliulanqibuzhichidingweigongneng']);
+                                break;
 							default:
 								break;
 						}
@@ -86,11 +89,13 @@
 						if(status == "error") {
 							switch(result.info) {
 								case "FAILED":
-									notify.toast("获取当前位置失败，请检查你的定位权限");
+                                    // notify.toast("获取当前位置失败，请检查你的定位权限");
+                                    notify.toast(languageJson['huoqudangqianweizhishibaiqingjianchanidedingweiquanxian']);
 									break;
 								case "NOT_SUPPORTED":
-									notify.toast("当前浏览器不支持定位功能");
-									break;
+									// notify.toast("当前浏览器不支持定位功能");
+                                    notify.toast(languageJson['dangqianliulanqibuzhichidingweigongneng']);
+                                    break;
 								default:
 									break;
 							}
@@ -187,11 +192,13 @@
 					if(status == "error") {
 						switch(result.info) {
 							case "FAILED":
-								notify.toast("获取当前位置失败，请检查你的定位权限");
+                                // notify.toast("获取当前位置失败，请检查你的定位权限");
+                                notify.toast(languageJson['huoqudangqianweizhishibaiqingjianchanidedingweiquanxian']);
 								break;
 							case "NOT_SUPPORTED":
-								notify.toast("当前浏览器不支持定位功能");
-								break;
+								// notify.toast("当前浏览器不支持定位功能");
+                                notify.toast(languageJson['dangqianliulanqibuzhichidingweigongneng']);
+                                break;
 							default:
 								break;
 						}
@@ -232,7 +239,7 @@
 		},
 
 		convertFromBD: function(lists, callback) {
-
+            let listResult = [];
 			if(lists.length <= 40) {
 				listResult = [];
 				AMap.convertFrom(lists, "baidu",
@@ -341,7 +348,8 @@
 							M: lng,
 							O: lat
 						}
-						notify.toast("无法获取定位权限，定位到当前城市")
+						// notify.toast("无法获取定位权限，定位到当前城市")
+						notify.toast(languageJson['wufahuoqudingweiquanxiandingweidaodangqianchengshi'])
 						callback && callback(result);
 					}
 				});

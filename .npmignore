@@ -1,5 +1,9 @@
 # 忽略除了 dist 目录外的所有内容
-/*
-
+#/*
 # 但是发布 dist 目录下的内容
-!dist/
+.babelrc
+/.idea
+node_modules
+#/locale
+/src
+#!dist/

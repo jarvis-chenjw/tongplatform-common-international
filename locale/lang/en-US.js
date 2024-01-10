@@ -1,7 +1,7 @@
+import underscore from "underscore-extend";
 import baseJson from './base-en-US';
 
-export default {
-    ...baseJson,
+const systemUS = {
     bumenminngcheng: 'Department Name',
     beizhu: 'Remarks',
     querenshanchu: 'confirm deletion',
@@ -25,5 +25,13 @@ export default {
     qingshuruzhishaoliuweimima: 'Please enter a password of at least 6 characters',
     dangqianweibeishouquanpingtaiquanxian: 'Currently not authorized platform permissions',
     qiehuanyingyong: 'Switch applications',
-    xinzengrenyuan:                   'New personnel added',
+    xinzengrenyuan: 'New personnel added',
 }
+
+
+const enUsData = underscore.deepExtend(
+    baseJson,
+    systemUS,
+);
+export default enUsData;
+

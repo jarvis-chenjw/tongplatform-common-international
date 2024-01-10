@@ -1,9 +1,9 @@
+import underscore from "underscore-extend";
+
 import baseJson from './base-zh-CN';
 import formZhCn from './zh-cn/form-zh-CN';
 
-export default {
-    ...baseJson,
-    ...formZhCn,
+const systemZhCn = {
     bumenminngcheng: '部门名称',
     tianjiabumen: '添加部门',
     bianjibumen: '编辑部门',
@@ -57,3 +57,10 @@ export default {
     denglumimaxiugai: '登录密码修改',
     fasongchenggong: '发送成功',
 }
+
+const zhCnData = underscore.deepExtend(
+    baseJson,
+    formZhCn,
+    systemZhCn,
+);
+export default zhCnData;

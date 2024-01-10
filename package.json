@@ -1,6 +1,6 @@
 {
   "name": "tongplatform-common-international",
-  "version": "1.0.4",
+  "version": "1.0.20",
   "description": "支持国际版本工具类",
   "main": "index.js",
   "scripts": {
